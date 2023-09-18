@@ -129,7 +129,7 @@ p {
 .hero-button-right {
   padding: 1.04em 2.24em;
   border-radius: 16px;
-  background-color: #5ddb80;
+  background-color: #f2bd0d;
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 0.94em;
   line-height: 1.22;
@@ -139,13 +139,13 @@ p {
 .hero-button-left {
   margin-right: 2.08em;
   padding: 0.94em 2.24em;
-  border: 2px solid #5ddb80;
+  border: 2px solid #f2bd0d;
   border-radius: 16px;
   background-color: transparent;
   -webkit-transition: box-shadow 300ms ease;
   transition: box-shadow 300ms ease;
   font-family: 'Montserrat Alternates', sans-serif;
-  color: #5ddb80;
+  color: #f2bd0d;
   font-size: 0.94em;
   line-height: 1.33;
   font-weight: 700;
@@ -159,7 +159,7 @@ p {
   margin-left: 2.19em;
   padding: 1.04em 1.3em 1.04em 1.67em;
   border-radius: 16px;
-  background-color: #5ddb80;
+  background-color: #f2bd0d;
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 0.94em;
   line-height: 1.22;
@@ -312,7 +312,7 @@ p {
 }
 
 .text-span {
-  color: #5ddb80;
+  color: #f2bd0d;
 }
 
 .background-hero {
@@ -1558,13 +1558,13 @@ p {
   display: flex;
   margin-right: 2.08em;
   padding: 0.94em 2.24em;
-  border: 2.3px solid #5ddb80;
+  border: 2.3px solid #f2bd0d;
   border-radius: 16px;
   background-color: transparent;
   -webkit-transition: box-shadow 300ms ease;
   transition: box-shadow 300ms ease;
   font-family: 'Montserrat Alternates', sans-serif;
-  color: #5ddb80;
+  color: #f2bd0d;
   font-size: 0.94em;
   line-height: 1.33;
   font-weight: 700;
@@ -1828,7 +1828,7 @@ p {
   }
 
   .nav-link.active {
-    color: #5ddb80;
+    color: #f2bd0d;
     font-weight: 700;
   }
 

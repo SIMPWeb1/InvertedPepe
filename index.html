@@ -233,7 +233,7 @@
             class="image"
           />
           <p data-w-id="101ff80d-10d1-6543-7f5b-e3de264a0688" class="logo-p">
-            Inverted Pepe
+            Inverted Pepe 2.0
           </p>
         </a>
         <div
@@ -519,7 +519,7 @@
               alt=""
               class="stats-imege"
             />
-            <h3 id="supply" class="h3">2, 385, 833</h3>
+            <h3 id="supply" class="h3"> 10, 000, 000</h3>
             <p class="p1 bold">Total supply</p>
           </div>
           <!-- <div
@@ -1412,7 +1412,7 @@
                 alt=""
                 class="logo-footer"
               />
-              <p class="logo-p white">Inverted Pepe</p>
+              <p class="logo-p white"> 2.0</p>
             </div>
             <div
               data-w-id="c8ffcf88-64a2-2abf-3703-32d2b40866ea"
@@ -1546,27 +1546,27 @@
       supplyAddress = "supply";
       burnedAddress = "burned";
       priceAddress = "price";
-      fetch(supplyAddress)
-        .then((response) => response.text())
-        .then((data) => {
-          console.log(data);
-          document.getElementById("supply").innerHTML = data
-            .substr(0, data.length - 19)
-            .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-          supply = parseInt(data.substr(0, data.length - 18));
-          fetch(priceAddress)
-            .then((response) => response.text())
-            .then((data) => {
-              document.getElementById("price").innerHTML =
-                "$ " + parseFloat(data).toFixed(8);
-              document.getElementById("mcap").innerHTML =
-                "$ " +
-                parseInt(parseFloat(data) * supply).replace(
-                  /\B(?=(\d{3})+(?!\d))/g,
-                  ","
-                );
-            });
-        });
+      // fetch(supplyAddress)
+      //   .then((response) => response.text())
+      //   .then((data) => {
+      //     console.log(data);
+      //     document.getElementById("supply").innerHTML = data
+      //       .substr(0, data.length - 19)
+      //       .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      //     supply = parseInt(data.substr(0, data.length - 18));
+      //     fetch(priceAddress)
+      //       .then((response) => response.text())
+      //       .then((data) => {
+      //         document.getElementById("price").innerHTML =
+      //           "$ " + parseFloat(data).toFixed(8);
+      //         document.getElementById("mcap").innerHTML =
+      //           "$ " +
+      //           parseInt(parseFloat(data) * supply).replace(
+      //             /\B(?=(\d{3})+(?!\d))/g,
+      //             ","
+      //           );
+      //       });
+      //   });
       fetch(burnedAddress)
         .then((response) => response.text())
         .then((data) => {
